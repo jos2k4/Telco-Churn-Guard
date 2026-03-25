@@ -19,7 +19,6 @@ Business Insight: Der größte monatliche Umsatzverlust entsteht durch Kunden mi
 
 Strategische Empfehlung: Kunden ohne Zugriff auf technischen Support kündigen überproportional häufig. Die Kopplung von technischem Service an Einstiegstarife könnte die Churn-Rate in der kritischen Anfangsphase massiv senken.
 
-👨‍💻 Wirtschaftsinformatik-Kontext (Bewerber-Profil)
 Dieses Projekt demonstriert die Schnittstelle zwischen IT-Kompetenz und betriebswirtschaftlichem Verständnis:
 
 Daten-Engineering: Vorverarbeitung und Aggregation von Rohdaten mit Pandas.
