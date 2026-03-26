@@ -28,7 +28,7 @@ plt.xlabel('Art des Vertrages')
 plt.ylabel('Potentieller monatlicher Umsatzverlust')
 
 #Lege den Ordner fest, indem gespeichert werden soll
-output_dir = 'plots'
+output_dir = 'plots.gitkeep'
 #Namensgebung
 file_path = os.path.join(output_dir, 'lost_revenue.png')
 #Speicherung

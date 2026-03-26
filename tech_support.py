@@ -26,7 +26,7 @@ plt.xlabel('Monate der Mitgliedschaft')
 plt.ylabel('Anzahl der Kündigungen')
 
 #Lege den Ordner fest, indem gespeichert werden soll
-output_dir = 'plots'
+output_dir = 'plots.gitkeep'
 #Namensgebung
 file_path = os.path.join(output_dir, 'tech_support.png')
 #Speicherung
