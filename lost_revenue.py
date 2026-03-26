@@ -1,7 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
-import numpy as np
+import os
 
 
 # Daten mit pandas laden
@@ -27,6 +27,11 @@ plt.title('Durchschnittlicher Monatlicher Verlust sortiert nach Vertragsart')
 plt.xlabel('Art des Vertrages')
 plt.ylabel('Potentieller monatlicher Umsatzverlust')
 
-plt.savefig("lost_revenue.png")
+#Lege den Ordner fest, indem gespeichert werden soll
+output_dir = 'plots'
+#Namensgebung
+file_path = os.path.join(output_dir, 'lost_revenue.png')
+#Speicherung
+plt.savefig(file_path)
 
-plt.show()
+plt.close()

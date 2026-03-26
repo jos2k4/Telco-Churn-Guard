@@ -2,6 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 import numpy as np
+import os
 # Daten mit pandas laden
 df = pd.read_csv('telco_data.csv')
 
@@ -28,6 +29,12 @@ plt.title('Kündigungszeitpunkt nach Monaten (Churn-Kurve)')
 plt.xlabel('Monate der Mitgliedschaft')
 plt.ylabel('Anzahl der Kündigungen')
 
-plt.savefig("Churn.png")
 
-plt.show()
+#Lege den Ordner fest, indem gespeichert werden soll
+output_dir = 'plots'
+#Namensgebung
+file_path = os.path.join(output_dir, 'churn_analysis.png')
+#Speicherung
+plt.savefig(file_path)
+
+plt.close()

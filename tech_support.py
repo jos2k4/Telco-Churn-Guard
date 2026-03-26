@@ -1,6 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
+import os
 
 # Daten mit pandas laden
 df = pd.read_csv('telco_data.csv')
@@ -24,6 +25,11 @@ plt.title('Kündigungen in Abhängigkeit, ob Tech Support genutzt wurde')
 plt.xlabel('Monate der Mitgliedschaft')
 plt.ylabel('Anzahl der Kündigungen')
 
-plt.savefig("TechSupport.png")
+#Lege den Ordner fest, indem gespeichert werden soll
+output_dir = 'plots'
+#Namensgebung
+file_path = os.path.join(output_dir, 'tech_support.png')
+#Speicherung
+plt.savefig(file_path)
 
-plt.show()
+plt.close()
