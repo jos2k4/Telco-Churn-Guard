@@ -3,7 +3,7 @@
 Diese Analyse nutzt den Telco Customer Churn Datensatz von Kaggle zur Identifikation von Geschäftsrisiken.
 https://www.kaggle.com/datasets/blastchar/telco-customer-churn?resource=download
 
-Für eine schnelle Übersicht gerne hier reinschauen: visualization.ipynb
+Für eine schnelle Übersicht gerne hier reinschauen: [Lies die Dokumentation](visualization.ipynb)
 
 1. Die Churn-Kurve: Identifikation von kritischen Phasen
 <img width="1000" height="500" alt="image" src="https://github.com/user-attachments/assets/e21d7f15-f6f3-4315-9a37-f7f42e71182f" />
