@@ -31,7 +31,7 @@ plt.ylabel('Anzahl der Kündigungen')
 
 
 #Lege den Ordner fest, indem gespeichert werden soll
-output_dir = 'plots.gitkeep'
+output_dir = 'plots'
 #Namensgebung
 file_path = os.path.join(output_dir, 'churn_analysis.png')
 #Speicherung
